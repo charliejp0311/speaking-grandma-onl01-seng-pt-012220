@@ -6,7 +6,7 @@ def speak_to_grandma(string)
   else
     "NO, NOT SINCE 1938!"
   end
-  pry.
+  binding.pry
 end
 
 # Whatever you say to grandma, she should respond with
