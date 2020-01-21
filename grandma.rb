@@ -7,7 +7,7 @@ def speak_to_grandma(string)
   else
   answer =  "NO, NOT SINCE 1938!"
   end
-  answer
+  pp answer
 end
 
 # Whatever you say to grandma, she should respond with
