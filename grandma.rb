@@ -2,7 +2,7 @@
 
 def speak_to_grandma(string)
   answer = ""
-  if !(string.upper?)
+  if string.reverse != string.upper
   answer =  "HUH?! SPEAK UP, SONNY!"
   else
   answer =  "NO, NOT SINCE 1938!"
