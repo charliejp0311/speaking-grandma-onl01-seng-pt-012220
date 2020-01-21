@@ -6,7 +6,7 @@ def speak_to_grandma(string)
     answer =  "HUH?! SPEAK UP, SONNY!"
   elsif string.reverse != string.upcase && string == "I LOVE YOU GRANDMA!"
     answer = "I LOVE YOU TOO PUMPKIN!"
-  else
+  elsif string.reverse != string.upcase
     answer =  "NO, NOT SINCE 1938!"
   end
   pp answer
