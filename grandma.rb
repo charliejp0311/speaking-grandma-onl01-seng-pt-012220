@@ -2,11 +2,11 @@
 
 def speak_to_grandma(string)
   if !(string.upper?)
-    "HUH?! SPEAK UP, SONNY!"
+  p  "HUH?! SPEAK UP, SONNY!"
   else
-    "NO, NOT SINCE 1938!"
+  p  "NO, NOT SINCE 1938!"
   end
-  binding.pry
+  
 end
 
 # Whatever you say to grandma, she should respond with
