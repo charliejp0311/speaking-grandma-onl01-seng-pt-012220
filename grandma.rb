@@ -2,11 +2,11 @@
 
 def speak_to_grandma(string)
   answer = ""
-  if string.reverse == string.upcase
+  if string.swapcase == string.upcase
     answer =  "HUH?! SPEAK UP, SONNY!"
-  elsif string.reverse != string.upcase && string == "I LOVE YOU GRANDMA!"
+  elsif string.swapcase != string.upcase && string == "I LOVE YOU GRANDMA!"
     answer = "I LOVE YOU TOO PUMPKIN!"
-  elsif string.reverse != string.upcase
+  else 
     answer =  "NO, NOT SINCE 1938!"
   end
   pp answer
